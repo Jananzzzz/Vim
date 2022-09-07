@@ -1,0 +1,15 @@
+if there is no such file after vim instruction, vim will creat a file for you,
+and this file is so created.
+
+.swp .swo .un files are created when using vim editor to recover files closed
+accidentally
+
+i to insert before cursor
+a to insert behind cursor
+o to insert at the head of next line
+
+:q quit without saving
+:wq quit kept saving
+:!q quit without saving
+
+

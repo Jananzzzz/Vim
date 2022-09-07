@@ -1,0 +1,34 @@
+if there is no such file after vim instruction, vim will creat a file for you,
+and this file is so created.
+
+.swp .swo .un files are created when using vim editor to recover files closed
+accidentally
+
+i to insert before cursor
+a to insert behind cursor
+o to insert at the head of next line
+# o is fantastic^^
+
+capital I is going to the beginning of the current line
+capital A is going to the end of the current line
+capital O is going to the head of the above line that will be created.
+
+:q quit without saving
+:wq quit kept saving
+:!q quit without saving
+
+use number + arrow to move quickly
+eg: 5 + j is going to move the cursor 5 line down
+
+:set number  # set the left side number for coding
+:set relative number # set the left side number of relation (this is insane
+useful when quickly moving to a specific line)
+:set mouse=a  # this activate your mouse in vim 
+
+you can save you preferences in ~/.vimrc file using 
+the file .vimrc is located in C:/Users/youraccountname 
+
+
+
+
+
