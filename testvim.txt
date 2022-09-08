@@ -28,7 +28,96 @@ useful when quickly moving to a specific line)
 you can save you preferences in ~/.vimrc file using 
 the file .vimrc is located in C:/Users/youraccountname 
 
+u: undo last operation
+ctrl + R: redo last operation
+the so-called last operation means you pressed an escape button and return to the normal mode
+while dd in normal mode delete the line without leaving the normal mode, 
+the cc instruction will delete the whole line and force you into insert mode,
+which is sometimes more useful than dd instruction.
+
+we can use yanking and D for deleting in normal mode. 
+using visual mode for selecting.
+c instruction can also be used in visual mode.
+in visual mode, when we enter c, not only the selected part was deleted, also we enter the insert mode.
+however, if we use d instruction, we delete and return to normal mode.
+in a word, c instruction is better at frequently changing your word.
+upper case D is deleting the rest of the line.
+upper case C is deleting the rest of the line and continue to change the line. 
+when you need to jump to a specific line you can type the line number + G.
+you can also jump to a specific line by typing : + line number in normal mode.
+there are multiple visual mode: visual line mode and visual block mode.
+type shift + v into visual line mode 
+type ctrl + q into visual block mode
+visual line mode allows you to select multiple lines
+visual block mode allows you to select vertically to select multiple lines with the same length.
+
+continue to use O and a, that will be helpful i think.
+below is just the test part. 
+ test
+ insert mode tinsertmo uppercase A will guide you to the end of the line.
+i can change the line deleted by cc instruction. that is really convenience.
+wow, cc is better than dd instruction, i think, at the time of 09/08/2022 11:38
+
+there are multiple visual mode: visual line mode and visual block mode.
+anchane them when moving around words by words, you can use w and b instruction.
+w instruction lets you move to the next word,
+b instruction lets you move to the last word.
+the differences between W, w, b and B is B regard hello-world as a single word.
+when in normal mode, we can use dd to delete a whole line. 
+we can also use dw to delete the next word,
+use db to delete the last word.
+use diw to delete the current word.
+and here if you clever enough, you will know that ciw will change the current word.
+use d5w to delete the next 5 words.
+the very useful key binding is 0 for moving to the head of current line and dollor symbol to the end of the line.
+yiw for copy the current word in normal mode and paste it by p also in normal mode and after paste
+it automatically turn into insert mode.
+use ci" in normal mode can delete and change the part in the bracket and parenthesis.
+d percent is going to delete the whole thing include the bracket.
+you can goto the first line of this file by typing gg.
+you can goto the end line of this file by typing shift + g, which is just uppercase G.
+you can use / in the normal mode to search 
+use ? in the normal mode to fuzzy search the fuzzy search here is just part search,
+if with wrong part, it won't be used. 
+use n to find next same word
+use N to find last same word
+
+my tetdd
+c can awhen i want to do something no one can stop me, just like the R change the current  word in normal mode.
+it will destory eveything in the way.
+using cc is maybe the best way to changing  a line.
+continue my test
+ test
+c
+change everythingtest of parenthesis:
+change everythinge to test
+change everythingogd
+change everythingsimple sentence for test.
+change everythingsimple-sentence-for-test.
+change everythingsimple_sentence_for_test.
+change everything
+change everythingcalled last operation means you pressed an escape button and return to the normal mode make sth fine.
+change everythingscinating.
+change everythingthis is a test") and i am going to delete or change that message.
+
+continue continue continue continue 
+continue 
+continue continue continue continue 
+that is fantastic 
+open 
+that is really amazing.
+sentence continue to code.
+continue continue continue continue 
+continue continue continue continue 
+ontinue 
+continue continue 
+that is fantastic 
+open 
+try ci quotation in a parentess (this is a test)
+that is a test only.
+
+dangnilaole zoubudongle
 
 
 
-
+mkdir make dir help me insert this. 
